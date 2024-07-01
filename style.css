@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    margin: 10px;
+    padding: 10px;
+}
+.header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+.header__des li{
+    margin-top: 20px;
+    display: inline-block;
+    color: grey;
+}
+.header__des li:hover{
+    font-size: 30px;
+}
+.menu{
+    margin-top: 20px;
+    text-align: center;
+}
+.menu__item1,.menu__item2,.menu__item3,.menu__item4{
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    display: inline-block;
+    width: 250px;
+    height: 375px;
+    vertical-align: top;
+}
+button{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.menu__item1:hover,.menu__item2:hover,.menu__item3:hover,.menu__item4:hover{
+    border-style: solid;
+    border-color:grey;
+    border-width: 7px;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+.footer{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer__form{
+    text-align: center;
+    margin-left: 40%;
+}
+.footer__send{
+    background-color: yellow;
+    color: black;
+    width: 400px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.section-1,.section-2,.section-3,.section-4{
+    margin-top: 20px;
+    background-color: beige;
+}
